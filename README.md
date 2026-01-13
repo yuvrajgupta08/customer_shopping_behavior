@@ -1,44 +1,5 @@
-# customer_shopping_behavior
-Data Analytics Project – Python, MySQL & Power BI
-Overview
+In this project, I engineered a sophisticated data pipeline using Python for initial processing and MySQL for robust relational data management. Leveraging the Pandas library, I executed a rigorous data-cleansing phase that included standardizing the schema into a recruiter-friendly snake_case format and addressing data gaps through intelligent imputation. Specifically, I utilized categorical median values to fill missing entries in the review ratings, ensuring the statistical integrity of the dataset was preserved for downstream analysis.
 
-This project showcases an end-to-end data analytics workflow, from raw data analysis to insight generation and dashboard reporting.
-The goal is to demonstrate practical data analyst skills using Python for analysis, MySQL for SQL querying, and Power BI for visualization.
+To unlock deeper business insights, I performed extensive feature engineering to transform raw data into actionable dimensions. I segmented the customer base into granular age demographics and converted qualitative purchase frequencies into numeric values, enabling a more quantitative approach to trend analysis. Furthermore, I optimized the data architecture by conducting a correlation analysis, which allowed me to remove redundant features and streamline the dataset for high-performance querying within the MySQL Server.
 
-Dataset
-
-Source: CSV dataset (customer/business data)
-
-Format: Structured tabular data
-
-Key characteristics:
-
-Missing values
-
-Duplicate records
-
-Inconsistent data formats
-
-Required data cleaning and transformation before analysis
-
-Tools & Technologies
-
-Python
-
-Pandas, NumPy
-
-Matplotlib / Seaborn
-
-MySQL Server
-
-Database storage
-
-SQL queries for analysis
-
-Power BI
-
-Interactive dashboard and reporting
-
-Jupyter Notebook
-
-EDA and data preparation
+The final phase involved integrating the processed data into MySQL using SQLAlchemy and PyMySQL, where I authored complex scripts to extract key performance indicators (KPIs). This structured backend served as the foundation for an interactive Power BI dashboard, bridging the gap between raw data and executive-level decision-making. By automating the flow from Python-based transformation to SQL-driven analytics, I established a scalable workflow capable of identifying high-value customer segments and driving strategic retail growth.
